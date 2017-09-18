@@ -23,9 +23,7 @@
 
 	<div class="blog-header">
 		<div class="container">
-			<h1 class="blog-title">Developer Dad</h1>
-			<p class="lead blog-description">Thoughts on programming,
-				fatherhood, and anything else</p>
+			<h1 class="blog-title">About Developer Dad</h1>
 		</div>
 	</div>
 
@@ -36,12 +34,19 @@
 			<div class="col-sm-8 blog-main">
 
 				<div class="blog-post">
-					<h2 class="blog-post-title">Sample blog post</h2>
 					<p class="blog-post-meta">
-						January 1, 2014 by <a href="#">Mark</a>
+						I'm an Alabama MIS graduate with over six years over development experience. 
+						I'm working on developing some blogs that will cover a wide variety of topics. 
+						I'd like to share my experiences with different technologies and helpful programming, fatherhood tips.
+						Often referred to as "A-ARon" since the substitute teacher skit went viral.
+						Star Wars Fan - Alabama Football Fan - Atlanta Braves Fan
 					</p>
-
-					<p>About Page</p>
+					<p class="blog-post-meta">
+						<img src= "resources/core/images/frazier106.jpg" alt="Family Photo" style="width:304px;height:228px">
+					</p>
+					<p class="blog-post-meta">
+						<img src= "resources/core/images/afrasier_XLThumb.jpg" alt="Individual Photo" style="width:275px;height:228px">
+					</p>
 				</div>
 
 			</div>

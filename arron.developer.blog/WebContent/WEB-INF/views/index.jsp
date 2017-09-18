@@ -38,7 +38,7 @@
 				<div class="blog-post">
 					<h2 class="blog-post-title">Sample blog post</h2>
 					<p class="blog-post-meta">
-						January 1, 2014 by <a href="#">Mark</a>
+						September 18th by <a href="#">Arron</a>
 					</p>
 
 					<p>This blog post shows a few different types of content that's
