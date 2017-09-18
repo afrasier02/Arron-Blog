@@ -59,7 +59,11 @@
 
 	</div>
 
-	<footer class="blog-footer"> </footer>
+	<footer class="footer"> 
+		<div class="container">
+			<span>Developed by Arron Frasier</span>
+		</div>
+	</footer>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="resources/core/js/bootstrap.min.js"></script>
