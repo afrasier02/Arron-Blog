@@ -23,7 +23,7 @@
 
 	<div class="blog-header">
 		<div class="container">
-			<h1 class="blog-title">About Developer Dad</h1>
+			<h1 class="blog-title">About Software Developer Dad</h1>
 		</div>
 	</div>
 

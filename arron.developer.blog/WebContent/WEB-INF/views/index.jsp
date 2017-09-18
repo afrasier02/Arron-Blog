@@ -8,7 +8,7 @@
 <meta name="author" content="">
 <link rel="icon" href="../../../../favicon.ico">
 
-<title>Developer Dad</title>
+<title>Software Developer Dad</title>
 
 <!-- Bootstrap core CSS -->
 <link rel="stylesheet" href="resources/core/css/bootstrap.min.css" />
@@ -23,7 +23,7 @@
 
 	<div class="blog-header">
 		<div class="container">
-			<h1 class="blog-title">Developer Dad</h1>
+			<h1 class="blog-title">Software Developer Dad</h1>
 			<p class="lead blog-description">Thoughts on programming,
 				fatherhood, and anything else</p>
 		</div>
