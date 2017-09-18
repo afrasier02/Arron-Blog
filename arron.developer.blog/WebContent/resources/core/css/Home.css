@@ -3,17 +3,22 @@
 }
 
 .navbar {
-  background: linear-gradient(to right, rgb(239, 239, 187), rgb(212, 211, 221));
+  background: black;
   box-shadow: none;
 }
 
 .active {
   color: white;
-  background-color: rgb(212, 211, 221);
+  background-color: White;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
    color: white;
-   background-color: rgb(212, 211, 221);
+   background-color: black;
    border-color: black;
+}
+
+.side-bar {
+	border-color: black;
+	border-style: solid;
 }

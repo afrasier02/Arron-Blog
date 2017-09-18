@@ -41,9 +41,7 @@
 						January 1, 2014 by <a href="#">Mark</a>
 					</p>
 
-					<p>This blog post shows a few different types of content that's
-						supported and styled with Bootstrap. Basic typography, images, and
-						code are all supported.</p>
+					<p>About Page</p>
 				</div>
 
 			</div>
@@ -63,7 +61,7 @@
 
 <script type="text/javascript">	
 	$(document).ready(function(){ 
-		$( "#navbar" ).load("resources/core/html/navbar.html");
+		$( "#navbar" ).load("resources/core/html/navbar.html"); 
 		$( "#sidebar" ).load("resources/core/html/sidebar.html"); 
 	});
 </script>
