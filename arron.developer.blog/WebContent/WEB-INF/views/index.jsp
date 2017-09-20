@@ -18,7 +18,7 @@
 <body class="developer-body">
 
 	<nav id="navbar" class="navbar navbar-inverse">
-
+		<%@include  file="html/navbar.html" %>
 	</nav>
 
 	<div class="blog-header">
@@ -36,20 +36,27 @@
 			<div class="col-sm-8 blog-main">
 
 				<div class="blog-post">
-					<h2 class="blog-post-title">Sample blog post</h2>
+					<h2 class="blog-post-title">First Post </h2>
 					<p class="blog-post-meta">
-						September 18th by <a href="#">Arron</a>
+						September 18th by <a href="About">Arron</a>
 					</p>
 
-					<p>This blog post shows a few different types of content that's
-						supported and styled with Bootstrap. Basic typography, images, and
-						code are all supported.</p>
+					<p>This blog is going to be a collection of programming tips, advice, and any fatherhood advice I can provide. 
+					I decided to create this blog because I wanted to keep my skills sharp in other areas I don't get to focus on in a daily basis. 
+					I've been working in the .NET / C# world for a while now. 
+					However, I got to work in Java a few years ago and I'm becoming more intrigued with open source technologies. 
+					This blog is written in Java built around the Spring MVC framework. I'm using Bootstrap for styling the User Interface and I will be storing the posts in MySQL.
+					I created an Amazon EC2 Linux machine that has Tomcat installed and is hosting the blog.
+					I'll be updating the code on my GitHub repository so stay tuned for more blog posts as I finish up more of the site.</p>
+
 				</div>
 
 			</div>
 
 			<div id="sidebar">
-			
+				<div id="sidebar">
+					<%@include  file="html/sidebar.html" %>
+				</div>
 			</div>
 
 		</div>
@@ -66,10 +73,9 @@
 <script src="resources/core/js/bootstrap.min.js"></script>
 
 <script type="text/javascript">	
-	$(document).ready(function(){ 
-		$( "#navbar" ).load("resources/core/html/navbar.html");
-		$( "#sidebar" ).load("resources/core/html/sidebar.html"); 
-	});
+$(document).ready(function(){ 		
+	$('ul.nav > li').removeClass('active');
+});
 </script>
 
 </html>

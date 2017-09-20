@@ -9,7 +9,7 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<jdk.version>1.6</jdk.version>
+		<jdk.version>1.7</jdk.version>
 		<spring.version>3.2.13.RELEASE</spring.version>
 		<jstl.version>1.2</jstl.version>
 	</properties>
@@ -33,6 +33,6 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>arron.developer.blog</finalName>
+		<finalName></finalName>
 	</build>
 </project>

@@ -18,7 +18,7 @@
 <body class="developer-body">
 
 	<nav id="navbar" class="navbar navbar-inverse">
-
+		<%@include  file="html/navbar.html" %>
 	</nav>
 
 	<div class="blog-header">
@@ -35,7 +35,7 @@
 
 				<div class="blog-post">
 					<p class="blog-post-meta">
-						I'm an Alabama MIS graduate with over six years over development experience. 
+						I'm an Alabama MIS graduate with over six years of development experience. 
 						I'm working on developing some blogs that will cover a wide variety of topics. 
 						I'd like to share my experiences with different technologies and helpful programming, fatherhood tips.
 						Often referred to as "A-ARon" since the substitute teacher skit went viral.
@@ -45,14 +45,14 @@
 						<img src= "resources/core/images/frazier106.jpg" alt="Family Photo" style="width:304px;height:228px">
 					</p>
 					<p class="blog-post-meta">
-						<img src= "resources/core/images/afrasier_XLThumb.jpg" alt="Individual Photo" style="width:275px;height:228px">
+						<img src= "resources/core/images/afrasier_XLThumb.jpg" alt="Individual Photo" style="width:250px;height:228px">
 					</p>
 				</div>
 
 			</div>
 
 			<div id="sidebar">
-			
+				<%@include  file="html/sidebar.html" %>
 			</div>
 
 		</div>
@@ -69,9 +69,8 @@
 <script src="resources/core/js/bootstrap.min.js"></script>
 
 <script type="text/javascript">	
-	$(document).ready(function(){ 
-		$( "#navbar" ).load("resources/core/html/navbar.html"); 
-		$( "#sidebar" ).load("resources/core/html/sidebar.html"); 
+	$(document).ready(function(){ 		
+		$('ul.nav > li').removeClass('active');
 	});
 </script>
 
