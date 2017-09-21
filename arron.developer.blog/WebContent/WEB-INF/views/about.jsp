@@ -13,6 +13,7 @@
 <!-- Bootstrap core CSS -->
 <link rel="stylesheet" href="resources/core/css/bootstrap.min.css" />
 <link rel="stylesheet" href="resources/core/css/Home.css" />
+<link rel="shortcut icon" href="resources/core/images/favicon.ico" type="image/x-icon"/>
 </head>
 
 <body class="developer-body">
