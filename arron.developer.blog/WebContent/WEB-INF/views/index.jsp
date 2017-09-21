@@ -1,18 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+
+<html>
+
 <head>
 <meta charset="utf-8">
-<meta name="viewport"
-	content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="icon" href="../../../../favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <title>Software Developer Dad</title>
 
 <!-- Bootstrap core CSS -->
 <link rel="stylesheet" href="resources/core/css/bootstrap.min.css" />
 <link rel="stylesheet" href="resources/core/css/Home.css" />
+<%@ page isELIgnored="false" %>
 </head>
 
 <body class="developer-body">
@@ -30,27 +31,18 @@
 	</div>
 
 	<div class="container">
-
 		<div class="row">
-
 			<div class="col-sm-8 blog-main">
-
-				<div class="blog-post">
-					<h2 class="blog-post-title">First Post </h2>
-					<p class="blog-post-meta">
-						September 18th by <a href="About">Arron</a>
-					</p>
-
-					<p>This blog is going to be a collection of programming tips, advice, and any fatherhood advice I can provide. 
-					I decided to create this blog because I wanted to keep my skills sharp in other areas I don't get to focus on in a daily basis. 
-					I've been working in the .NET / C# world for a while now. 
-					However, I got to work in Java a few years ago and I'm becoming more intrigued with open source technologies. 
-					This blog is written in Java built around the Spring MVC framework. I'm using Bootstrap for styling the User Interface and I will be storing the posts in MySQL.
-					I created an Amazon EC2 Linux machine that has Tomcat installed and is hosting the blog.
-					I'll be updating the code on my GitHub repository so stay tuned for more blog posts as I finish up more of the site.</p>
-
-				</div>
-
+				<c:forEach items="${latest3posts}" var="blog">
+					<div class="blog-post">
+						<h2 class="blog-post-title">${blog.title}</h2>
+						<p class="blog-post-meta">
+							September 18th by <a href="About">${blog.author.fullName}</a>
+						</p>
+	
+						<p class="content"><c:out value="${blog.body}"></c:out></p>
+					</div>
+    			</c:forEach>
 			</div>
 
 			<div id="sidebar">
