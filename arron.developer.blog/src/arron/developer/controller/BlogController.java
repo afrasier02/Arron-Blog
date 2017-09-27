@@ -21,7 +21,7 @@ public class BlogController {
 	@Autowired
 	private PostService postService;
 
-	@RequestMapping(value = {"/", "/Home"}, method = RequestMethod.GET)
+	@RequestMapping(value = {"/", "/Home"}, method = RequestMethod.GET, produces = "text/plain;charset=UTF-8")
 	public ModelAndView index(Model model) {
 		java.util.List<Post> latest5Posts = postService.findLatest5();
 		model.addAttribute("latest5posts", latest5Posts);

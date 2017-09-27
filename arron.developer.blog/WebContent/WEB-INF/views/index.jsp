@@ -41,7 +41,7 @@
 							September 18th by <a href="About">${blog.author.fullName}</a>
 						</p>
 	
-						<p class="content"><c:out value="${blog.body}"></c:out></p>
+						<p class="content"><c:out escapeXml="false" value="${blog.body}"></c:out></p>
 					</div>
     			</c:forEach>
 			</div>
